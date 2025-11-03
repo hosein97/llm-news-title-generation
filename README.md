@@ -1,2 +1,3 @@
 # llm-news-title-generation
-This project uses prompt-based learning and fine-tuning to generate concise Persian news titles from full news articles.
+This project uses prompt-based learning and fine-tuning to generate concise Persian news titles from full news articles. The project leverages Mistral-7B-Instruct and Qwen2.5-7B-Instruct models using Hugging Face Transformers and TRL (Transformer Reinforcement Learning) library.
+The Persian news dataset is preprocessed for training and evaluation. Fine-tuning is performed efficiently with QLoRA, and different prompting strategies including zero-shot, few-shot, and chain-of-thought are applied. The repository provides scripts for model training, evaluation using BLEU, ROUGE-L, and METEOR, and analyzing model performance.
